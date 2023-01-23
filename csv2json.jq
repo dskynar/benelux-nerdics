@@ -18,4 +18,4 @@ def csv2json:
   | reduce (.[1:][] | select(length > 0) ) as $row
       ( []; . + [ $row|objectify($headers) ]);
 
-csv2json
+csv2json | .[]
