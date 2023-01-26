@@ -26,7 +26,7 @@ Apart from this, you need to import the processing group template "Streamifier.x
 
 the source data file is merged_dataset.csv. It's dimensions are 671,241 rows and 16 columns. It should be placed in a specific location in HDFS:
 
-`hdfs dfs –put merged_dataset.csv /user/admin/upload/intrusions.csv`
+`hdfs dfs –put dataset.csv /user/admin/upload/intrusions.csv`
 
 ### Kafka
 You will need to create a topic called "intrusion". Easiest in the SMM GUI.
