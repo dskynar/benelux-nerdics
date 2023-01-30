@@ -991,7 +991,7 @@
                         <properties>
                             <entry>
 <key>bootstrap.servers</key>
-<value>3.121.140.173:9092</value>
+<value>${hostname()}:9092</value>
                             </entry>
                             <entry>
 <key>topic</key>
