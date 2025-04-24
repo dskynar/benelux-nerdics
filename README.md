@@ -1,5 +1,5 @@
 # benelux-nerdics
-some files for hackathon in Cloudera
+Some files for hackathon in Cloudera
 
 ## Setup
 The demo environment is built on the Edge2AI environment here: (link). When the environment is installed, it will give you a link to a shell on the node. This is the starting point for commands below.
